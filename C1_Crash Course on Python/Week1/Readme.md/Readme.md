@@ -12,11 +12,11 @@ In this module we’ll introduce you to the Coursera platform and the course for
 
 ## Assessments
 
-- [Practice Quiz: Introduction to Programming](#Practice-Quiz:-Introduction-to-Programming)
+- [Practice Quiz: Introduction to Programming](###Practice-Quiz--Introduction-to-Programming)
 - [Practice Quiz: Introduction to Python](#Practice-Quiz:-Introduction-to-Python)
 
 
-### Practice Quiz: Introduction to Programming
+### Practice Quiz - Introduction to Programming
 
 1. What’s a computer program?
 
