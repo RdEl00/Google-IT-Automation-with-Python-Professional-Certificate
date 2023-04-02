@@ -100,7 +100,7 @@ print("Programming in Python is fun!")
 5. Replace the ___ placeholder and calculate the Golden ratio: 
 
 ```math
-1 + \sqrt{3}
+1 + \sqrt{3}/2$
 ```
 
 *Tip: to calculate the square root of a number xx, you can use x**(1/2).*
