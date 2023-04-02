@@ -62,6 +62,8 @@ print("2 + 2 = " + str((2 + 2)))
 
 > An expression
 
+[ :arrow_up: Back to top](#Basic-Python-Syntax)
+
 ### Practice Quiz - Functions
 
 1. This function converts miles to kilometers (km).
@@ -132,11 +134,13 @@ print(lucky_number("Cameron"))
 
 > Used to define a new function
 
+[ :arrow_up: Back to top](#Basic-Python-Syntax)
 
 ### Practice Quiz - Conditionals
 
 
 
+[ :arrow_up: Back to top](#Basic-Python-Syntax)
 
 ### Graded Assessment
 
@@ -259,5 +263,4 @@ print(safe_division(0, 5)) # Should print 0.0
 
 > Cleaning up duplicate code by creating a function that can be reused
 
-:arrow_up: 
-[ :arrow_up: Back to top](#Basic-Python-Syntax)
+ [ :arrow_up: Back to top](#Basic-Python-Syntax)
