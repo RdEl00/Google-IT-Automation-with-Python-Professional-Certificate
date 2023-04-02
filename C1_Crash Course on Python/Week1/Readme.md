@@ -1,4 +1,4 @@
-# Hello Python!
+# Hello Python
 
 In this module we’ll introduce you to the Coursera platform and the course format. Then, we’ll dive into the basics of programming languages and syntax, as well as automation using scripting. We’ll also introduce you to the Python programming language and some of the benefits it offers. Last up, we’ll cover some basic functions and keywords of the language, along with some arithmetic operations.
 
@@ -48,7 +48,7 @@ In this module we’ll introduce you to the Coursera platform and the course for
 
 > The meaning of coded statements
 
-[ :arrow_up: Back to top](#Hello-Python!)
+[ :arrow_up: Back to top](#Hello-Python)
 
 ### Practice Quiz - Introduction to Python
 
@@ -80,7 +80,7 @@ for i in range(5):
 for i in range(10):
   print(i)
 ```
-[ :arrow_up: Back to top](#Hello-Python!)
+[ :arrow_up: Back to top](#Hello-Python)
 
 ### Practice Quiz - Hello World
 
@@ -114,7 +114,7 @@ print("Programming in Python is fun!")
 ratio = ((1+5**(1/2)))/2
 print(ratio)
 ```
-[ :arrow_up: Back to top](#Hello-Python!)
+[ :arrow_up: Back to top](#Hello-Python)
 
 ### Graded Assessment
 
@@ -174,4 +174,4 @@ print(3959 - 1516)
 
 # Should print 2443
 ```
-[ :arrow_up: Back to top](#Hello-Python!)
+[ :arrow_up: Back to top](#Hello-Python)
