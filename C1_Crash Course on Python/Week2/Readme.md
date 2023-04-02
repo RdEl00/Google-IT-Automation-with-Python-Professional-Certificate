@@ -259,4 +259,5 @@ print(safe_division(0, 5)) # Should print 0.0
 
 > Cleaning up duplicate code by creating a function that can be reused
 
-[🔼 Back to top](#Basic-Python-Syntax)
+:arrow_up: 
+[ :arrow_up: Back to top](#Basic-Python-Syntax)
