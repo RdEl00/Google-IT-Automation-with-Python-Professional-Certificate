@@ -151,8 +151,7 @@ print(ratio)
 ```python
 print(15+5+(3*2)/4**2+(3-7)*7)
 ```
-> 
--7.625
+> -7.625
 
 8. Keeping in mind there are 86400 seconds per day, write a program that calculates how many seconds there are in a week, if a week is 7 days.  Print the result to the screen. Note: Your result should be in the format of just a number, not a sentence.
 
