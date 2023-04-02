@@ -14,6 +14,9 @@ In this module we’ll introduce you to the Coursera platform and the course for
 
 - [Practice Quiz - Introduction to Programming](###Practice-Quiz---Introduction-to-Programming)
 - [Practice Quiz - Introduction to Python](#Practice-Quiz---Introduction-to-Python)
+- [Practice Quiz - Hello World](#Practice-Quiz---Hello-World)
+- [Graded Assessment](#Graded-Assessment)
+
 
 
 ### Practice Quiz - Introduction to Programming
@@ -108,4 +111,63 @@ print("Programming in Python is fun!")
 ```python
 ratio = ((1+5**(1/2)))/2
 print(ratio)
+```
+### Graded Assessment
+
+1. What is a computer program?
+
+> Step-by-step instructions on how to complete a set of tasks, to be executed by a computer.
+
+2. Which of the following are true about programming languages? Select all that apply.
+
+> Similar to human language, programming languages use syntax and semantics.
+
+> Programming languages are used to write computer programs and scripts.
+
+> Some common programming languages include Python, Java, C, C++, C#, and R.
+
+3. What are some tasks that might be a good fit for full automation? Select all that apply.
+
+> Detecting and removing duplicate data
+
+> Updating specific files on multiple computers
+
+4. What is the difference between syntax and semantics in a programming language?
+
+> Syntax is a set of rules for how statements are constructed. Semantics refers to the intended meaning or effect of statements. 
+
+5. Which of the following are characteristics of the Python language? Select all that apply.
+
+> Python is cross-platform compatible
+
+> Python is used in a wide variety of applications
+
+6. Which Python function will output text, or other value, to the screen?
+
+> print()
+
+7. What should be the output of the expression below? 
+
+```python
+print(15+5+(3*2)/4**2+(3-7)*7)
+```
+> 
+-7.625
+
+8. Keeping in mind there are 86400 seconds per day, write a program that calculates how many seconds there are in a week, if a week is 7 days.  Print the result to the screen. Note: Your result should be in the format of just a number, not a sentence.
+
+```python
+# Enter code here:
+print(86400 * 7)
+
+# Should print 604800
+```
+
+9. Mercury has a diameter of approximately 1,516 miles.  Earth has a diameter of approximately 3,959 miles.  Use Python to calculate how much larger Earth’s diameter is than Mercury's (in miles). Note: Your result should be in the format of a number, not a sentence.
+
+```python
+# Enter code here:
+print(3959 - 1516)
+
+# Should print 2443
 ```
