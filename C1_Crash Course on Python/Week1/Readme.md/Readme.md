@@ -12,8 +12,8 @@ In this module we’ll introduce you to the Coursera platform and the course for
 
 ## Assessments
 
-- [Practice Quiz: Introduction to Programming](###Practice-Quiz--Introduction-to-Programming)
-- [Practice Quiz: Introduction to Python](#Practice-Quiz:-Introduction-to-Python)
+- [Practice Quiz - Introduction to Programming](###Practice-Quiz---Introduction-to-Programming)
+- [Practice Quiz - Introduction to Python](#Practice-Quiz---Introduction-to-Python)
 
 
 ### Practice Quiz - Introduction to Programming
@@ -46,7 +46,7 @@ In this module we’ll introduce you to the Coursera platform and the course for
 > The meaning of coded statements
 
 
-### Practice Quiz: Introduction to Python
+### Practice Quiz - Introduction to Python
 
 1. Fill in the correct Python command to put “My first Python program” onto the screen.
 
