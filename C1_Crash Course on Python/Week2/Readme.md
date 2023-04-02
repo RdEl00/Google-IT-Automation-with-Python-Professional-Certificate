@@ -13,8 +13,129 @@ In this module you’ll learn about different data types in Python, how to ident
 
 ## Assessments
 
-- [Practice Quiz - Hello World](#Practice-Quiz---Hello-World)
+- [Practice Quiz - Expressions and Variables](#Practice-Quiz---Expressions-and-Variables)
+- [Practice Quiz - Functions](#Practice-Quiz---Functions)
 - [Graded Assessment](#Graded-Assessment)
+
+### Practice Quiz - Expressions and Variables
+
+1. In this scenario, two friends are eating dinner at a restaurant. The bill comes in the amount of 47.28 dollars. The friends decide to split the bill evenly between them, after adding 15% tip for the service. Calculate the tip, the total amount to pay, and each friend's share, then output a message saying "Each person needs to pay: " followed by the resulting number.
+
+```python
+bill = 47.28
+tip = bill * 0.15
+total = bill + tip
+share = total/2 
+print("Each person needs to pay: " + str(share))
+```
+
+2. This code is supposed to take two numbers, divide one by another so that the result is equal to 1, and display the result on the screen. Unfortunately, there is an error in the code. Find the error and fix it, so that the output is correct.
+
+```python
+numerator = 10
+denominator = 10
+result = numerator / denominator
+print(int(result))
+```
+
+3. Combine the variables to display the sentence "How do you like Python so far?"
+
+```python
+word1 = "How"
+word2 = "do"
+word3 = "you"
+word4 = "like"
+word5 = "Python"
+word6 = "so"
+word7 = "far?"
+
+print(word1 + " " + word2 +  " " + word3 + " " + word4 + " " + word5 + " " + word6 + " " + word7)
+```
+
+4. This code is supposed to display "2 + 2 = 4" on the screen, but there is an error. Find the error in the code and fix it, so that the output is correct.
+
+```python
+print("2 + 2 = " + str((2 + 2)))
+```
+
+5. What do you call a combination of numbers, symbols, or other values that produce a result when evaluated?
+
+> An expression
+
+### Practice Quiz - Functions
+
+1. This function converts miles to kilometers (km).
+    - Complete the function to return the result of the conversion
+
+    - Call the function to convert the trip distance from miles to kilometers
+
+    - Fill in the blank to print the result of the conversion
+
+    - Calculate the round-trip in kilometers by doubling the result, and fill in the blank to print the result
+
+```python
+# 1) Complete the function to return the result of the conversion
+def convert_distance(miles):
+	km = miles * 1.6  # approximately 1.6 km in 1 mile
+	return km
+
+my_trip_miles = 55
+
+# 2) Convert my_trip_miles to kilometers by calling the function above
+my_trip_km = convert_distance(my_trip_miles)
+
+# 3) Fill in the blank to print the result of the conversion
+print("The distance in kilometers is " + str(my_trip_km))
+
+# 4) Calculate the round-trip in kilometers by doubling the result,
+#    and fill in the blank to print the result
+print("The round-trip in kilometers is " + str(my_trip_km * 2))
+```
+2. This function compares two numbers and returns them in increasing order.
+
+    - Fill in the blanks, so the print statement displays the result of the function call in order.
+
+*Hint: if a function returns multiple values, don't forget to store these values in multiple variables*
+
+```python
+# This function compares two numbers and returns them
+# in increasing order.
+def order_numbers(number1, number2):
+	if number2 > number1:
+		return number1, number2
+	else:
+		return number2, number1
+
+# 1) Fill in the blanks so the print statement displays the result
+#    of the function call
+smaller, bigger = order_numbers(100, 99)
+print(smaller, bigger)
+```
+
+3. What are the values passed into functions as input called?
+
+> Parameters
+
+4. Let's revisit our lucky_number function. We want to change it, so that instead of printing the message, it returns the message. This way, the calling line can print the message, or do something else with it if needed. Fill in the blanks to complete the code to make it work.
+
+```python
+def lucky_number(name):
+  number = len(name) * 9
+  msg = "Hello " + name + ". Your lucky number is " + str(number)
+  return msg
+	    
+print(lucky_number("Kay"))
+print(lucky_number("Cameron"))
+```
+
+5. What is the purpose of the def keyword?
+
+> Used to define a new function
+
+
+### Practice Quiz - Conditionals
+
+
 
 
 ### Graded Assessment
@@ -137,3 +258,5 @@ print(safe_division(0, 5)) # Should print 0.0
 > Adding comments
 
 > Cleaning up duplicate code by creating a function that can be reused
+
+[🔼 Back to top](#Week2)
