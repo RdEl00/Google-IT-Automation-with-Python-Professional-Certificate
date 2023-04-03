@@ -405,6 +405,12 @@ print(sum)
 
 8. How many numbers will this loop print?  Your answer should be only one number.
 
+```python
+for sum in range(5):
+    sum += sum
+    print(sum)
+```
+
 > 5
 
 9. What is the initial value of  the “outer_loop” variable on the first iteration of the nested "inner_loop"? Your answer should be only one number.
