@@ -325,4 +325,175 @@ print(add_prices(groceries)) # Should print 28.44
 
 ### Graded Assessment
 
+1. Fill in the blanks to complete the “confirm_length” function. This function should return how many characters a string contains as long as it has one or more characters, otherwise it will return 0. Complete the string operations needed in this function so that input like "Monday" will produce the output "6".
+
+```python
+def confirm_length(word):
+
+    # Complete the condition statement using a string operation. 
+    if len(word) != 0:
+        # Complete the return statement using a string operation.
+        return len(word) 
+    else:
+        return 0
+
+
+print(confirm_length("a")) # Should print 1
+print(confirm_length("This is a long string")) # Should print 21
+print(confirm_length("Monday")) # Should print 6
+print(confirm_length("")) # Should print 0
+```
+2. Fill in the blank to complete the “string_words” function. This function should split up the words in the given “string” and return the number of words in the “string”.  Complete the string operation and method needed in this function so that a function call like "string_words("Hello, World")" will return the output "2".
+
+```python
+def string_words(string):
+    # Complete the return statement using both a string operation and 
+    # a string method in a single line.
+    return len(string.split())
+
+
+print(string_words("Hello, World")) # Should print 2
+print(string_words("Python is awesome")) # Should print 3
+print(string_words("Keep going")) # Should print 2
+print(string_words("Have a nice day")) # Should print 4
+```
+
+3. Consider the following scenario about using Python lists: 
+
+Employees at a company shared  the distance they drive to work (in miles) through an online survey. These distances were automatically added by Python to a list called “distances” in the order that each employee submitted their distance. Management wants the list to be sorted in the order of the longest distance to the shortest distance. 
+
+Complete the function to sort the “distances” list. This function should:
+
+- sort the given “distances” list, passed through the function’s parameters; ; 
+
+- reverse the sort order so that it goes from the longest to the shortest distance;
+
+- return the modified “distances” list.
+
+```python
+def sort_distance(distances):
+    distances.sort(reverse=True) # Sort the list
+    return distances
+
+
+print(sort_distance([2,4,0,15,8,9]))
+# Should print [15, 9, 8, 4, 2, 0]
+```
+
+4. Fill in the blank to complete the “squares” function. This function should use a list comprehension to create a list of squared numbers (using either the expression n*n or n**2). The function receives two variables and should return the list of squares that occur between the “start” and “end” variables inclusively (meaning the range should include both the “start” and “end” values). Complete the list comprehension in this function so that input like “squares(2, 3)” will produce the output “[4, 9]”.
+
+```python
+def squares(start, end):
+    return [ x**2 for x in range(start, end+1) ] # Create the required list comprehension.
+
+
+print(squares(2, 3)) # Should print [4, 9]
+print(squares(1, 5)) # Should print [1, 4, 9, 16, 25]
+print(squares(0, 10)) # Should print [0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+
+5. Fill in the blanks to complete the “car_listing” function. This function accepts a “car_prices” dictionary. It should iterate through the keys (car models) and values (car prices) in that dictionary. For each item pair, the function should format a string so that a dictionary entry like ““Kia Soul“:19000” will print "A Kia Soul costs 19000 dollars". Each new string should appear on its own line.
+
+```python
+def car_listing(car_prices):
+  result = ""
+  # Complete the for loop to iterate through the key and value items 
+  # in the dictionary.
+  for key, value in car_prices.items():
+    result += f" A {key} costs {value} dollars\n" # Use a string method to format the required string. 
+  return result
+
+print(car_listing({"Kia Soul":19000, "Lamborghini Diablo":55000, "Ford Fiesta":13000, "Toyota Prius":24000}))
+
+# Should print:
+# A Kia Soul costs 19000 dollars
+# A Lamborghini Diablo costs 55000 dollars
+# A Ford Fiesta costs 13000 dollars
+# A Toyota Prius costs 24000 dollars
+```
+
+6. Consider the following scenario about using Python dictionaries: 
+
+Tessa and Rick are hosting a party. Together, they sent out invitations, and collected the responses in a dictionary, with names of their friends and the number of guests each friend will be bringing. 
+
+Complete the function so that the “check_guests” function retrieves the number of guests (value)  the specified friend “guest” (key) is bringing. This function should:
+
+- accept a dictionary “guest_list” and a key “guest” variable passed through the function parameters;
+
+- print the values associated with the key variable.
+
+```python
+def check_guests(guest_list, guest):
+  return guest_list[guest] # Return the value for the given key
+
+
+guest_list = { "Adam":3, "Camila":3, "David":5, "Jamal":3, "Charley":2, "Titus":1, "Raj":6, "Noemi":1, "Sakira":3, "Chidi":5}
+
+
+print(check_guests(guest_list, "Adam")) # Should print 3
+print(check_guests(guest_list, "Sakira")) # Should print 3
+print(check_guests(guest_list, "Charley")) # Should print 2
+```
+
+7. Consider the following scenario about using Python dictionaries:
+
+A teacher is using a dictionary to store student grades. The grades are stored as a point value out of 100.  Currently, the teacher has a dictionary setup for Term 1 grades and wants to duplicate it for Term 2. The student name keys in the dictionary should stay the same, but the grade values should be reset to 0.
+
+Complete the “setup_gradebook” function so that input like “{"James": 93, "Felicity": 98, "Barakaa": 80}” will produce a resulting dictionary that contains  “{"James": 0, "Felicity": 0, "Barakaa": 0}”. This function should: 
+
+- accept a dictionary “old_gradebook” variable through the function’s parameters;
+
+- make a copy of the “old_gradebook” dictionary;
+
+- iterate over each key and value pair in the new dictionary;
+
+- replace the value for each key with the number 0;
+
+- return the new dictionary.
+
+```python
+def setup_gradebook(old_gradebook):
+  # Use a dictionary method to create a new copy of the "old_gradebook".
+  new_gradebook = old_gradebook.copy()
+  print(new_gradebook) 
+    # Complete the for loop to iterate over the new gradebook. 
+  for key, value in new_gradebook.items():
+     # Use a dictionary operation to reset the grade values to 0.
+    value = 0
+    new_gradebook.update({key:value})
+  return new_gradebook
+
+fall_gradebook = {"James": 93, "Felicity": 98, "Barakaa": 80}
+print(setup_gradebook(fall_gradebook))
+# Should output {'James': 0, 'Felicity': 0, 'Barakaa': 0}
+
+```
+
+8. What do the following commands return when genre = "transcendental"?
+
+```python
+print(genre[:-8])
+print(genre[-7:9])
+```
+
+> transc, nd
+
+9. What does the list "music_genres" contain after these commands are executed?
+
+```python
+music_genres = ["rock", "pop", "country"]
+music_genres.append("blues")
+```
+
+> ['rock', 'pop', 'country', 'blues']
+
+10. What do the following commands return?
+
+```python
+speed_limits = {"street": 35, "highway": 65, "school": 15}
+speed_limits["highway"]
+```
+
+> 65
+
 [ :arrow_up: Back to top](#Strings-Lists-and-Dictionaries)
