@@ -15,6 +15,7 @@ In this module you’ll learn about different data types in Python, how to ident
 
 - [Practice Quiz - Expressions and Variables](#Practice-Quiz---Expressions-and-Variables)
 - [Practice Quiz - Functions](#Practice-Quiz---Functions)
+- [Practice Quiz - Conditionals](#Practice-Quiz---Conditionals)
 - [Graded Assessment](#Graded-Assessment)
 
 ### Practice Quiz - Expressions and Variables
