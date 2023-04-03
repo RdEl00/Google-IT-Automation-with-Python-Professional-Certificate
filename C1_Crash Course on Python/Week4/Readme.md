@@ -131,4 +131,4 @@ print(replace_ending("The weather is nice in May", "May", "April"))
 
 ### Graded Assessment
 
-[ :arrow_up: Back to top](#Loops)
+[ :arrow_up: Back to top](#Strings-Lists-and-Dictionaries)
