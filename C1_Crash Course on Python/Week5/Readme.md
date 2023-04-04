@@ -14,6 +14,7 @@ In this module, you'll be introduced to the concept of object-oriented programmi
 ## Assessments
 
 - [Practice Quiz - Object-oriented Programming](#Practice-Quiz---Object-oriented-Programming)
+- [Lab - Methods and Classes]()
 - [Graded Assessment](#Graded-Assessment)
 
 ### Practice Quiz - Object-oriented Programming
