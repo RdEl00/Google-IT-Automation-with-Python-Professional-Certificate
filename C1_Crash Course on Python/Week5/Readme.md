@@ -15,6 +15,7 @@ In this module, you'll be introduced to the concept of object-oriented programmi
 
 - [Practice Quiz - Object-oriented Programming](#Practice-Quiz---Object-oriented-Programming)
 - [Lab - Methods and Classes](#Lab---Methods-and-Classes)
+- [Lab - Code Reuse](#Lab---Code-Reuse)
 - [Graded Assessment](#Graded-Assessment)
 
 ### Practice Quiz - Object-oriented Programming
@@ -185,6 +186,12 @@ print(describe_furniture(couch))
 
 <p align="left">
   <a href="https://nbviewer.org/github/RdEl00/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/C1_Crash%20Course%20on%20Python/Week5/lab/C1M5L2_Methods_and_Classes_V3.ipynb"><img src=https://img.shields.io/badge/Jupyter-Open%20Notebook-orange?></a>
+</p>
+
+### Lab - Code Reuse
+
+<p align="left">
+  <a href="https://nbviewer.org/github/RdEl00/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/C1_Crash%20Course%20on%20Python/Week5/lab/C1M5L3_Code_Reuse_V2.ipynb"><img src=https://img.shields.io/badge/Jupyter-Open%20Notebook-orange?></a>
 </p>
 
 [ :arrow_up: Back to top](#Object-Oriented-Programming)
