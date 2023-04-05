@@ -14,7 +14,7 @@ In this module, you'll learn how to apply a problem-solving framework to tackle 
 ### Lab - Putting It All Together
 
 <p align="left">
-  <a href="https://nbviewer.org/github/RdEl00/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/C1_Crash%20Course%20on%20Python/Week5/lab/C1M5L2_Methods_and_Classes_V3.ipynb"><img src=https://img.shields.io/badge/Jupyter-Open%20Notebook-orange?></a>
+  <a href="https://nbviewer.org/github/RdEl00/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/C1_Crash%20Course%20on%20Python/Week6/lab/C1M6L1_Putting_It_All_Together.ipynb"><img src=https://img.shields.io/badge/Jupyter-Open%20Notebook-orange?></a>
 </p>
 
 
