@@ -12,7 +12,7 @@ In this module we’ll introduce you to the Coursera platform and the course for
 
 ## Assessments
 
-- [Practice Quiz - Introduction to Programming](###Practice-Quiz---Introduction-to-Programming)
+- [Practice Quiz - Introduction to Programming](#Practice-Quiz---Introduction-to-Programming)
 - [Practice Quiz - Introduction to Python](#Practice-Quiz---Introduction-to-Python)
 - [Practice Quiz - Hello World](#Practice-Quiz---Hello-World)
 - [Graded Assessment](#Graded-Assessment)

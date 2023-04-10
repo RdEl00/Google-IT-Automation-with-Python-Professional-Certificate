@@ -30,5 +30,7 @@ In this module, you'll be introduced to the concept of object-oriented programmi
 ### Final Project
 
 In this module, you'll learn how to apply a problem-solving framework to tackle a challenging project. You'll learn how to formulate a problem statement to understand a challenge, conduct some research to see what options are available, then begin planning how you to solve a problem.
+___
 
-## [Certificate :trophy:](https://coursera.org/share/81fe2ba42943fde1a77276d394567b1a)
+<h3>
+<a href="https://coursera.org/share/be54387ad7b18c5f872af873287e344c" target="_blank">Certificate :trophy:</a></h3>
