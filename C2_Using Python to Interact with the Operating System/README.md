@@ -39,6 +39,6 @@ In this module, you’ll put everything you’ve learned so far into action! You
 You'll create a problem statement to understand the challenge, conduct some research to see what options are available, then begin planning how you intend to solve the problem. Lastly, you'll write the code to implement your solution!
 ___
 
-## [Certificate :trophy:](https://coursera.org/share/f46c5e0fbf8dafb2cd6ef50bef29feca)
+[Certificate :trophy:](https://coursera.org/share/f46c5e0fbf8dafb2cd6ef50bef29feca)
 
 ___
