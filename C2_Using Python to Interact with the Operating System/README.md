@@ -40,5 +40,4 @@ You'll create a problem statement to understand the challenge, conduct some rese
 ___
 
 [Certificate :trophy:](https://coursera.org/share/f46c5e0fbf8dafb2cd6ef50bef29feca)
-
 ___
