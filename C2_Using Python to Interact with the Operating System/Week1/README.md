@@ -29,5 +29,30 @@ In this module, you’ll learn about the different types of operating systems, a
 
 2. Which of the following operating systems is compatible with Python 3?
 
+- [ ] Redhat Linux
+- [ ] Microsoft Windows
+- [ ] Apple MacOS
+- [x] All of the above
+
+3. Which of the following operating systems does not run on a Linux kernel?
+
+- [ ] Android
+- [ ] Chrome OS
+- [x] Mac OS
+- [ ] Ubuntu
+
+4. If we want to check to see  what version of Python is installed, what would we type into the command line? Select all that apply.
+
+- [x] python -V
+- [x] python --version
+- [ ] python --help
+- [ ] python -v
+
+5. What is pip an example of?
+
+- [ ] A programming language
+- [ ] An operating system
+- [ ] A repository of Python modules
+- [x] A Python package manager
 
 [ :arrow_up: Back to top](#Getting-Your-Python-On)
