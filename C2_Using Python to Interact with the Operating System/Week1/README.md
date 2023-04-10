@@ -15,9 +15,6 @@ In this module, you’ll learn about the different types of operating systems, a
 - [Practice Quiz - Getting Ready for Python](#Practice-Quiz---Getting-Ready-for-Python)
 - [Practice Quiz - Running Python Locally](#Practice-Quiz---Running-Python-Locally)
 - [Practice Quiz - Automation](#Practice-Quiz---Automation)
-- [Graded Assessment](#Graded-Assessment)
-
-
 
 ### Practice Quiz - Getting Ready for Python
 
